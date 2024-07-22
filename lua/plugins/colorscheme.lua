@@ -2,6 +2,7 @@
 local tokyonight = {
     'folke/tokyonight.nvim',
     priority = 1000,
+    lazy = true,
     opts = {},
 }
 
@@ -9,6 +10,7 @@ local tokyonight = {
 local dracula = {
     'https://github.com/Mofiqul/dracula.nvim',
     priority = 1000,
+    lazy = true,
 }
 
 return {
